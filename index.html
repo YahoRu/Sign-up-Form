@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/styles/style.css">
+</head>
+<body>
+  <section>
+    <div class="image-container">
+      <img src="/images/photo-green.avif" alt="Green leafs" class="logo-background-image">
+      <div class="logo-and-text">
+        <img src="/images/odin-lined.png" alt="Odin logo" class="logo">
+        <span class="logo-text">ODIN</span>
+      </div>
+    </div>
+
+    <div class="registration-form">
+      <div class="headers">
+        <h2>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started.</h2>
+        <h2>You know you want to.</h2>
+      </div>
+      
+      <form action="/action_page" method="post">
+        <div class="registration-form-fields">
+
+          <div class="form-group-left">
+            <div class="form-group">
+              <label for="firstName">FIRST NAME</label>
+              <input type="text" id="firstName" name="firstName" placeholder="Thor">
+            </div>
+            <div class="form-group">
+              <label for="lastName">LAST NAME</label>
+              <input type="text" id="lastName" name="lastName" placeholder="Odinson">
+            </div>
+            <div class="form-group">
+              <label for="email">EMAIL</label>
+              <input type="email" id="email" name="email">
+            </div>
+          </div>
+  
+          <div class="form-group-right">
+            <div class="form-group">
+              <label for="phone">PHONE NUMBER</label>
+              <input type="tel" id="phone" name="phone">
+            </div>
+            <div class="form-group">
+              <label for="password">PASSWORD</label>
+              <input type="password" id="password" name="password">
+              <span class="password-hint">Passwords do not match</span>
+            </div>
+            <div class="form-group">
+              <label for="confirmPassword">CONFIRM PASSWORD</label>
+              <input type="password" id="confirmPassword" name="confirmPassword">
+            </div>
+          </div>
+        </div>
+       
+        <button type="submit">Create Account</button>
+      </form>
+      <p>Already have an account? <a href="#">Log in</a></p>
+    </div>
+  </section>
+</body>
+</html>
